@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyView</string>
+    <string name="pemilik">Raditya Ramadhoni</string>
+    <string name="harga">Rp. 50.000.000</string>
+    <string name="jenisikan">Arwana Super Red</string>
+    <string name="deskripsi">Ikan arwana ini berasal dari sungai Kapuas di Kalimantan Selatan dan merupakan salah satu ikan yang paling diminati oleh kolektor arwana.</string>
+    <string name="tipe">Tipe :</string>
+    <string name="tipe1">Super Red</string>
+    <string name="jk">Jenis Kelamin</string>
+    <string name="jantan">Jantan</string>
+    <string name="umur">Umur</string>
+    <string name="_1_tahun">1_Tahun</string>
+    <string name="ciri_khas">Ciri Khas</string>
+    <string name="merah">Berwarna Merah</string>
+    <string name="owner">Owner</string>
+    <string name="beli">Buy</string>
+
+
+</resources>
