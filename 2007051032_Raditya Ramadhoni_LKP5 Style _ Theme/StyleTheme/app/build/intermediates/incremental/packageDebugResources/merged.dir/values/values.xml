@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#3C16C6</color>
+    <color name="colorPrimary">#3E82D6</color>
+    <color name="colorPrimaryDark">#0727CD</color>
+    <color name="colorSubTitle">#FFFFFF</color>
+    <string name="app_name">MyView</string>
+    <string name="arwana">Arwana Super Red</string>
+    <string name="buy">buy</string>
+    <string name="ciri">Ciri Khas</string>
+    <string name="deskripsi">Ikan arwana ini berasal dari sungai Kapuas di Kalimantan Selatan dan merupakan salah satu ikan yang paling diminati oleh kolektor arwana.</string>
+    <string name="harga">Rp. 50.000.000</string>
+    <string name="jantan">Jantan</string>
+    <string name="jenis">Jenis Kelamin</string>
+    <string name="merah">Berwarna Merah</string>
+    <string name="owner">owner</string>
+    <string name="super_red">Super Red</string>
+    <string name="tahun">1 Tahun</string>
+    <string name="tipe">Tipe</string>
+    <string name="umur">Umur</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ButtonGeneral" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="TextContent" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+    <style name="TextContent.Black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="TextContent.Small">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+    <style name="TextContent.Small.White">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextContent.Subtitle">
+        <item name="android:textColor">@color/colorSubTitle</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextSpec">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextSpec.Field">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textColor">@color/colorSubTitle</item>
+
+    </style>
+    <style name="TextSpec.Value">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>
